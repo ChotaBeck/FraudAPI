@@ -16,7 +16,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Paths
-base_path = '/home/chota/Documents/School/4th Year/CS400/Code/SMSFinancialFraudDetectionSystem/DetectionModel/'
+base_path = os.path.dirname(os.path.abspath(__file__))
+#base_path = '/home/chota/Documents/School/4th Year/CS400/Code/SMSFinancialFraudDetectionSystem/DetectionModel/'
 model_path = os.path.join(base_path, 'models/best_model_svm.pkl')  # Update model filename
 vectorizer_path = os.path.join(base_path, 'models/best_vectorizer.pkl')
 data_path = os.path.join(base_path, 'data/raw_data.csv')
