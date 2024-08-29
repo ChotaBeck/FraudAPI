@@ -1,0 +1,5 @@
+                 Model  Accuracy  Precision    Recall  F1 Score  Cross-Validation Score  Training Time
+3                  SVM  0.977625   0.992908  0.848485  0.915033                0.966631      29.717753
+2        Random Forest  0.972461   0.992593  0.812121  0.893333                0.973089      18.151223
+1          Naive Bayes  0.967298   0.977444  0.787879  0.872483                0.965985       0.194545
+0  Logistic Regression  0.959552   0.960938  0.745455  0.839590                0.947901       0.263186
