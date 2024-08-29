@@ -487,3 +487,5 @@ $RECYCLE.BIN/
 #my stuff
 /venv/*
 venv/.
+.vscode/*
+.vscode/
