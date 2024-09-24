@@ -447,10 +447,10 @@ nltk.data.path.append(nltk_data_path)
 nltk.download('punkt', download_dir=nltk_data_path, quiet=True)
 nltk.download('punkt_tab', download_dir=nltk_data_path, quiet=True)
 
-# Tokenization function
-def tokenize_text(text):
-    tokens = word_tokenize(text)
-    return [word for word in tokens if word.isalpha()]
+# # Tokenization function
+# def tokenize_text(text):
+#     tokens = word_tokenize(text)
+#     return [word for word in tokens if word.isalpha()]
 
 def create_app():
     app = Flask(__name__)
