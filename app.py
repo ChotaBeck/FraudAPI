@@ -434,7 +434,7 @@ nltk.download('punkt', download_dir=nltk_data_path)
 nltk.download('punkt_tab', download_dir=nltk_data_path)
 
 # Specify the path to your venv's nltk_data folder
-nltk_data_path = os.path.join(os.path.dirname(__file__), 'venv', 'lib', 'nltk_data')
+nltk_data_path = os.path.join(os.path.dirname(__file__), '.venv', 'lib', 'nltk_data')
 
 # Create the nltk_data directory if it doesn't exist
 if not os.path.exists(nltk_data_path):
