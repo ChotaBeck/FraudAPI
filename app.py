@@ -402,7 +402,8 @@ from sklearn.metrics import accuracy_score
 import pandas as pd
 import logging
 import nltk
-from nltk.tokenize import word_tokenize
+from tokenizer import tokenize_text 
+
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
