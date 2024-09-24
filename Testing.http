@@ -1,7 +1,7 @@
-POST http://127.0.0.1:8000/predict
-#POST https://fraudapi-0b7c.onrender.com/predict
+POST http://127.0.0.1:5000/predict
+# POST https://fraudapi-0b7c.onrender.com/predict
 Content-Type: application/json
 
 {
-    "message" : "Hey im ricahrd from bank of zambia you have won a prize of K5000, please call me on 0965896314 to win your prize"
+    "message" : "send me the money"
 }
